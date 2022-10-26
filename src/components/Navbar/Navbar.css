@@ -1,0 +1,12 @@
+nav {
+  background-color: rgb(72, 72, 72);
+  color: rgb(222, 205, 16);
+  height: 65px;
+  font-weight: 600;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-text-stroke: 1px rgb(50, 80, 192);
+  
+}
