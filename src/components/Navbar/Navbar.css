@@ -1,12 +1,30 @@
-nav {
-  background-color: rgb(72, 72, 72);
-  color: rgb(222, 205, 16);
-  height: 65px;
-  font-weight: 600;
-  font-size: 45px;
+header {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  background-color: rgb(49, 48, 48);
+  width: 100%;
+  height: 80px;
+}
+
+header .logo h3 {
+  font-size: 45px;
+  color: rgb(222, 205, 16);
   -webkit-text-stroke: 1px rgb(50, 80, 192);
-  
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  transition: all 0.2s;
+}
+
+nav ul li a:hover {
+  color: rgb(222, 205, 16);
 }
